@@ -1,6 +1,34 @@
 # GestionHospital
 La gestión del mantenimiento de un hospital, en relación con el instrumental quirúrgico, implica una serie de pasos y prácticas para asegurar que el equipo médico esté en óptimas condiciones de funcionamiento y seguridad:
 
+```
+└───src
+    ├───controller
+    │       AplMain.java
+    │       InstController.java
+    │       MantController.java
+    │       SCcontroller.java
+    │
+    ├───model
+    │       InstCapacitacion.java
+    │       InstTecnologia.java
+    │       MantPruebas.java
+    │       MantReparaciones.java
+    │       SCEspecializados.java
+    │       SCGarantias.java
+    │       SCPostVenta.java
+    │
+    └───view
+            InstVista.java
+            MantVista.java
+            SCVista.java
+
+
+```
+
+
+
+
 ## Servicio al Cliente
 1. Servicios Post-Venta
 Empresas especializadas ofrecen servicios post-venta para garantizar el mantenimiento y reparación de equipos quirúrgicos. Estos servicios pueden incluir la realización de mantenimiento preventivo, la reparación de equipos dañados, y la capacitación del personal médico en el uso y mantenimiento de estos equipos
